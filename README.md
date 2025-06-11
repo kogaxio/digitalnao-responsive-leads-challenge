@@ -1,11 +1,11 @@
 # digitalnao-responsive-leads-challenge
 Repositorio de los archivos desarrollador para el reto: Diseño responsivo Front End en JavaScript. Landing page responsiva para la automatización de recolección de leads del curso de la influencer Caroline Sada.
 
-#Proyecto: Landing Page de Generación de Leads para Caroline Sada
+# Proyecto: Landing Page de Generación de Leads para Caroline Sada
 
 Este repositorio contiene el desarrollo de una landing page responsiva diseñada para automatizar la recolección de leads para Caroline Sada, una influencer financiera. Este proyecto es parte del reto "Diseño responsivo Front End en JavaScript de Digital NAO".
 
-##Propósito del Repositorio
+## Propósito del Repositorio
 
 El objetivo principal de este repositorio es alojar todo el código y la documentación relacionados con el reto, siguiendo una metodología DevOps.
 
