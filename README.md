@@ -14,7 +14,7 @@ El objetivo principal de este repositorio es alojar todo el código y la documen
 El proyecto se desarrolla a lo largo de tres Sprints, con una entrega final que integra todo el trabajo y una videografía:
 
 * **Sprint 1: Planificación y Maquetado**
-    * Maquetado y codificación de la landing page integrando html, integrando imágenes SVG.
+    * Maquetado en HTML con etiquetas semánticas y codificación de la landing page integrando html, integrando imágenes SVG.
     * Creación del Backlog (historias de usuario y tablas de registro) y Roadmap del proyecto.
     * Reporte Técnico del avance.
 * **Sprint 2: Implementación con Bootstrap y Validación de Formulario**
