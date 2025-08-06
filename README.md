@@ -35,4 +35,16 @@ El proyecto se desarrolla a lo largo de tres Sprints, con una entrega final que 
 * CSS3 (con Bootstrap 5 para diseño responsivo) 
 * JavaScript (para validación de formulario) 
 * Imágenes SVG 
-* GitHub (para control de versiones) 
+* GitHub (para control de versiones)
+
+## Cómo visualizar el proyecto
+
+Para poder ver la landing page con sus estilos y la validación del formulario en funcionamiento:
+
+* **Clonar el repositorio**
+   * Abre tu terminal (Git Bash, CMD, PowerShell, etc.) y navega hasta el directorio donde deseas guardar el proyecto. Luego, ejecuta el siguiente comando:
+     ```bash
+     git clone https://github.com/kogaxio/digitalnao-responsive-leads-challenge/edit/main/README.md
+      ```
+* **Visualizar la landing page**
+     * Una vez clonado el repositorio, navega al directorio del proyecto y abre el archivo index.html. Esta landing page es una página web estática con html, css y js vainilla. No se requiere servidor local ni dependencias adicionales.
