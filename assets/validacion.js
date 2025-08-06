@@ -1,4 +1,4 @@
-// Validación básica del formulario de contacto
+// Validación formulario
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contactForm");
 
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Manejar el envío del formulario
   form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevenir envío automático
+    e.preventDefault();
 
     // Obtener valores de los campos
     const nombre = document.getElementById("nombre").value.trim();
