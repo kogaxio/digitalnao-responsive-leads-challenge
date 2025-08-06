@@ -4,22 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caroline Sada-Landing page</title>
+    <title>Caroline Sada - Transforma tu futuro financiero</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/estilos_CSlandingPage.css">
+
 </head>
 
 <body>
     <!--Encabezado con logo de la marca y navegación de la landing page-->
     <header>
-        <h1></h1>
-        <nav>
-            <span>Logo</span>
-            <ul>
-                <li>Inicio</li>
-                <li>Características</li>
-                <li>Testimonios</li>
-                <li>Contacto</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="bg-primary rounded-circle me-2" style="width: 30px; height: 30px;">
+                    </div>
+                    <strong>Caroline Sada</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
 
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                    <a href="" class="nav-link">Inicio</a>
+                    <a href="" class="nav-link">Curso</a>
+                    <a href="" class="nav-link">Testimonios</a>
+                    <a href="" class="nav-link">Contacto</a>
+
+                </div>
+
+                </div>
+                
+            </div>
         </nav>
     </header>
 
@@ -27,80 +46,203 @@
     registrar datos y para ver un previo del curso-->
     <main>
         <section class="hero-section">
-            <h1>Transforma tu Futuro Financiero</h1>
-            <p>Aprende a manejar tus finanzas personales de manera inteligente y construye la libertad financiera que
-                siempre has soñado.</p>
-            <button>Comenzar ahora</button>
-            <button>Ver curso</button>
-            <img src="assets/img/banner.svg" alt="">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1>Transforma tu Futuro Financiero</h1>
+                        <p>Aprende a manejar tus finanzas personales de manera inteligente y construye la libertad
+                            financiera que
+                            siempre has soñado.</p>
 
+
+                        <div class="d-flex gap-5">
+                            <button class="btn boton-start btn-lg">
+                                <i class="fas fa-play me-2"></i>
+                                Comenzar ahora
+
+                            </button>
+                            <button class="btn btn-lg boton-video">
+                                <i class="fas fa-video me-2"></i>
+                                Ver curso
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-md-2">
+                        <img src="assets/img/banner.svg" alt="Descripción de la imagen" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </section>
+
     </main>
-<!--Sección con las características más atractivas y beneficios del curso-->
-    <section class="course-features">
-        <h2>¿Por qué elegir este curso?</h2>
-        <p>Metodología garantizada por miles de estudiantes con éxito financiero.</p>
-        <div>
-            <img src="assets/img/resultados.svg" alt="">
-            <h3>Resultados comprobados</h3>
-            <p>Estrategias financieras probadas que han ayudado a miles de personas</p>
+    <!--Sección con las características más atractivas y beneficios del curso-->
+    <section class="course-features py-5 bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>¿Por qué elegir este curso?</h2>
+                <p>Metodología garantizada por miles de estudiantes con éxito financiero.</p>
+
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="svgimg-container">
+                            <img src="assets/img/resultados.svg" class="feature-icon" alt="">
+                        </div>
+                        <h5>Resultados comprobados</h5>
+                        <p>Estrategias financieras probadas que han ayudado a miles de personas.</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="svgimg-container">
+                            <img src="assets/img/verificado.svg" class="feature-icon" alt="">
+                        </div>
+                        <h5>Contenido certificado</h5>
+                        <p>Acceso a material exclusivo como plantillas, conferencias y recursos descargables de alto
+                            nivel.</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="svgimg-container">
+                            <img src="assets/img/contacto247.svg" class="feature-icon" alt="">
+                        </div>
+                        <h5>Apoyo 24/7</h5>
+                        <p>Comunidad, soporte y recursos activos para apoyarte a resolver dudas.</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <img src="assets/img/verificado.svg" alt="">
-            <h3>Contenido certificado</h3>
-            <p>Acceso a material exclusivo como plantillas, conferencias y recursos descargables de alto nivel</p>
-        </div>
-
-        <div>
-            <img src="assets/img/contacto247.svg" alt="">
-            <h3>Apoyo 24/7</h3>
-            <p>Comunidad, soporte y recursos activos para apoyarte a resolver dudas.</p>
-
-        </div>
     </section>
 
-<!--Estadísticas de éxito-->
+    <!--Estadísticas de éxito-->
     <section class="stats-section">
-        <ul>
-            <li>15k Estudiantes capacitados</li>
-            <li>98% Satisfacción</li>
-            <li>50+ Horas de contenido</li>
-            <li>5 Calificación promedio</li>
-        </ul>
+        <div class="container">
+            <div class="row text-center mb-2">
+                <div class="col-md-3 col-6">
+                    <h2>15k+</h2>
+                    <p>Estudiantes capacitados</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2>98%</h2>
+                    <p>Satisfacción</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2>50+</h2>
+                    <p>Horas de contenido</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2>5★</h2>
+                    <p>Calificación promedio</p>
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
     <!--Sección del formulario para recolección de leads-->
     <section class="form-section">
-        <h2>¡Comienza la transformación hoy!</h2>
-        <label for="leadsNombre">Nombre*</label>
-        <input type="text" id="leadsNombre" required>
+        <div class="container">
+            <div class="col-lg-10">
+                <div class="form-container">
+                    <div class="text-center mb-1">
+                        <h2>¡Comienza tu transformación hoy</h2>
+                        <p>Déjanos tus datos y te enviaremos información sobre el curso</p>
 
-        <label for="leadsApellido">Apellido*</label>
-        <input type="text" id="leadsApellido" required>
+                    </div>
+                    <form id="contactForm" novalidate>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="nombre" class="form-laber">Nombre *</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                <div class="valid-feedback">
+                                        ¡Perfecto!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Por favor, ingresa tu nombre.
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="apellido" class="form-laber">Apellido *</label>
+                                <input type="text" class="form-control" id="apellido" name="apellido" required>
+                            </div>
 
-        <label for="leadsEmail">Coreo electrónico*</label>
-        <input type="text" id="leadsEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico *</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="objetivos" class="form-label">
+                                ¿Cuáles son tus objetivos financieros?
+                            </label>
+                            <textarea class="form-control" id="objetivos" name="objetivos" rows="3"></textarea>
 
-        <label for="leadsTelefono">Teléfono</label>
-        <input type="text" id="leadsTelefono">
-
-        <label for="financialGoals">¿Cuáles son tus objetivos financieros*</label>
-        <input type="text" id="financialGoals" required>
-
-        <button type="submit">Enviar información</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn boton-start btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Enviar Información
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </section>
+
     <!--Pie de página con información de contacto-->
     <footer>
-        <h4>Caroline Sada</h4>
-        <p>Influencer financiera especializada en ayudar a personas a alcanzar sus objetivos financieros, a través de
-            educación basada en retos</p>
-        <h4>Contacto</h4>
-        <span>info@carolinesada.com</span>
-        <span>+52 55-1234-5678</span>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Caroline Sada</h5>
+                    <p>Influencer financiera especializada en ayudar a personas a alcanzar sus objetivos financieros, a
+                        través de
+                        educación basada en retos.</p>
+                    <div>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mb-3 ms-auto">
+                    <h6>Contacto</h6>
+                      <p><i class="fas fa-envelope me-2"></i>info@carolinesada.com</p>
+                        <p><i class="fas fa-phone me-2"></i>+52 55 1234 5678</p>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
 
     </footer>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/validacion.js"></script>
 
 </body>
 
