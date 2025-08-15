@@ -44,7 +44,7 @@ Para poder ver la landing page con sus estilos y la validación del formulario e
 * **Clonar el repositorio**
    * Abre tu terminal (Git Bash, CMD, PowerShell, etc.) y navega hasta el directorio donde deseas guardar el proyecto. Luego, ejecuta el siguiente comando:
      ```bash
-     git clone https://github.com/kogaxio/digitalnao-responsive-leads-challenge/edit/main/README.md
+     git clone https://github.com/kogaxio/digitalnao-responsive-leads-challenge/
       ```
 * **Visualizar la landing page**
      * Una vez clonado el repositorio, navega al directorio del proyecto y abre el archivo index.html. Esta landing page es una página web estática con html, css y js vainilla. No se requiere servidor local ni dependencias adicionales.
